@@ -1,0 +1,21 @@
+# Secret credentials
+.env
+
+# Executable files
+*.exe
+
+# SQLite databases and backups
+*.db
+*.sqlite
+*.sqlite3
+
+# Temporary files
+*.tmp
+# Linux executables
+backend/server_linux
+backend/server
+
+# Build and temporary files
+*.o
+*.log
+.DS_Store

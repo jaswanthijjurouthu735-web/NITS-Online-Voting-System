@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101b35">
+  <title>NITS Elections | Your Voice, Your Gymkhana</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement"><span class="live-dot"></span> NITS GYMKHANA ELECTIONS <span class="announcement-sep">/</span> A stronger campus starts with your voice</div>
+  <header class="site-header">
+    <a class="brand" href="#" data-page="home" aria-label="NITS Elections home">
+      <span class="brand-mark">N</span><span class="brand-copy"><strong>NITS<span> ELECTIONS</span></strong><small>STUDENT GYMKHANA</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+    <nav class="main-nav" id="mainNav">
+      <a href="#" data-page="home" class="nav-link active">Home</a>
+      <a href="#" data-page="positions" class="nav-link">Positions</a>
+      <a href="#" data-page="candidates" class="nav-link">Candidates</a>
+      <a href="#" data-page="results" class="nav-link">Results</a>
+    </nav>
+    <button class="btn btn-dark header-login" data-page="portal">Enter portal <span>↗</span></button>
+  </header>
+
+  <main id="app">
+    <section class="hero section-pad" id="homeHero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-line"></span> THE VOICE OF OUR CAMPUS</div>
+        <h1>Your voice.<br>Your vote.<br><em>Your Gymkhana.</em></h1>
+        <p class="hero-description">Leadership begins when we choose to be heard. Meet the students who want to shape our campus — and make your choice count.</p>
+        <div class="hero-actions">
+          <button class="btn btn-primary" data-page="positions">Explore positions <span>→</span></button>
+          <button class="btn btn-quiet" data-page="portal"><span class="play-icon">↗</span> Enter student portal</button>
+        </div>
+        <div class="hero-trust"><span class="avatar-stack"><i>J</i><i>A</i><i>S</i><i>+</i></span><span><strong>One campus. Many voices.</strong><small>Make every vote count.</small></span></div>
+      </div>
+      <div class="hero-art">
+        <div class="art-grid"></div>
+        <div class="hero-label label-top"><span class="label-icon">✳</span><span><small>YOUR CAMPUS</small><strong>YOUR FUTURE</strong></span></div>
+        <div class="hero-poster">
+          <div class="poster-top"><span>NITS / GYMKHANA</span><span>EST. 1967</span></div>
+          <div class="poster-orbit orbit-one"></div><div class="poster-orbit orbit-two"></div>
+          <div class="poster-sun"></div>
+          <div class="poster-person"><div class="person-head"></div><div class="person-body"></div><div class="person-arm"></div></div>
+          <div class="poster-words"><small>THE NEXT CHAPTER</small><strong>STARTS<br>WITH <em>YOU.</em></strong></div>
+          <div class="poster-bottom"><span>LISTEN. LEAD. DELIVER.</span><span>01 — 06</span></div>
+        </div>
+        <div class="floating-note"><span class="note-star">✦</span><span><strong>Leadership is service.</strong><small>Choose the change you believe in.</small></span></div>
+        <div class="hero-side-note">STUDENT VOICE / CAMPUS CHANGE / 2026</div>
+      </div>
+      <div class="hero-bottomline"><span>01 / A DEMOCRATIC CAMPUS</span><span>SCROLL TO EXPLORE <b>↓</b></span></div>
+    </section>
+
+    <section class="ticker" aria-label="Election slogan"><div>YOUR VOICE MATTERS <b>✳</b> LEADERSHIP THROUGH SERVICE <b>✳</b> EVERY VOTE SHAPES TOMORROW <b>✳</b> YOUR VOICE MATTERS <b>✳</b></div></section>
+
+    <section class="section-pad intro-section">
+      <div class="section-kicker">01 — WHY IT MATTERS</div>
+      <div class="intro-grid"><h2>A campus is only<br>as strong as the <em>voices</em><br>that shape it.</h2><div class="intro-text"><p>The Gymkhana is more than a student body. It is a platform for ideas, action and representation — connecting students with the opportunities and changes they want to see.</p><p>Your vote is a small action with a lasting impact. Learn about the candidates, explore their plans, and choose the people you trust to represent the student community.</p><button class="text-link" data-page="candidates">Meet the candidates <span>↗</span></button></div></div>
+      <div class="value-grid">
+        <article class="value-card"><span class="value-number">01</span><span class="value-icon">◎</span><h3>Representation</h3><p>Bring student voices, concerns and ideas to the table.</p></article>
+        <article class="value-card"><span class="value-number">02</span><span class="value-icon">↗</span><h3>Accountability</h3><p>Choose leaders who communicate clearly and follow through.</p></article>
+        <article class="value-card"><span class="value-number">03</span><span class="value-icon">✳</span><h3>Campus culture</h3><p>Help build a more active, inclusive and connected campus.</p></article>
+      </div>
+    </section>
+
+    <section class="positions-section section-pad" id="positionsPreview">
+      <div class="section-heading"><div><div class="section-kicker">02 — KNOW YOUR REPRESENTATIVES</div><h2>Six positions.<br><em>One shared future.</em></h2></div><button class="btn btn-outline" data-page="positions">Explore all positions <span>→</span></button></div>
+      <div class="position-grid" id="homePositionGrid"></div>
+    </section>
+
+    <section class="gymkhana-section section-pad">
+      <div class="gymkhana-visual"><div class="visual-ring ring-a"></div><div class="visual-ring ring-b"></div><div class="visual-center"><span>N</span><small>NITS</small></div><div class="visual-caption">LEARN TO LEAD.<br>LEAD TO SERVE.</div></div>
+      <div class="gymkhana-copy"><div class="section-kicker">03 — THE GYMKHANA</div><h2>More than a title.<br><em>A responsibility.</em></h2><p>The Students' Gymkhana provides a platform for student-led activities, representation, collaboration and campus life. Its elected representatives help bring student ideas into action across academic, technical, cultural and sporting communities.</p><p>Leadership isn't about the position you hold. It's about the difference you make for others.</p><button class="btn btn-primary" data-page="positions">Discover the positions <span>→</span></button></div>
+    </section>
+
+    <section class="cta-section section-pad"><div class="cta-star">✳</div><div class="section-kicker">04 — YOUR TURN</div><h2>The future isn't<br>chosen for you. <em>Choose it.</em></h2><p>Get informed. Compare manifestos. Make your voice count.</p><button class="btn btn-light" data-page="portal">Enter the portal <span>↗</span></button></section>
+  </main>
+
+  <footer class="site-footer"><a class="brand footer-brand" href="#" data-page="home"><span class="brand-mark">N</span><span class="brand-copy"><strong>NITS<span> ELECTIONS</span></strong><small>STUDENT GYMKHANA</small></span></a><p>A student election portal concept for NIT Silchar.</p><div class="footer-links"><a href="#" data-page="positions">Positions</a><a href="#" data-page="candidates">Candidates</a><a href="#" data-page="results">Results</a><a href="#" data-page="portal">Portal</a></div><small class="footer-bottom">PROJECT PROTOTYPE · NOT AN OFFICIAL NITS ELECTION SERVICE</small></footer>
+
+  <div class="toast" id="toast" role="status"></div>
+  <script src="script.js"></script>
+</body>
+</html>
